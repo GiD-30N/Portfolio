@@ -94,6 +94,9 @@ header {
   color: goldenrod;
 }
 /* scroll down icon */
+.down a{
+  text-decoration: none;
+}
 .down a i {
   color: white;
   position: absolute;
@@ -136,6 +139,7 @@ header {
   color: goldenrod;
   text-transform: uppercase;
   font-size: 20px;
+  font-weight: lighter;
 }
 .my-info h3::before {
   content: "";
@@ -583,7 +587,7 @@ footer h2::before {
   }
   .footer {
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 30px;
   }
@@ -680,7 +684,7 @@ footer h2::before {
   }
   .footer {
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 10px;
     padding: 20px 5px;
     justify-content: space-between;
