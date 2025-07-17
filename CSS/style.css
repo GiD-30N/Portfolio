@@ -321,7 +321,7 @@ header {
 .footer h2 {
   color: goldenrod;
   font-size: 20px;
-  margin-bottom: 50px;
+  margin-bottom: clamp(30px, 5vw 50px);
 }
 footer h2::before {
   content: "";
@@ -334,7 +334,7 @@ footer h2::before {
 }
 .footer p {
   color: white;
-  font-size: clamp(24px, 5vw, 40px);
+  font-size: clamp(14px, 5vw, 40px);
 }
 .contacts {
   display: flex;
